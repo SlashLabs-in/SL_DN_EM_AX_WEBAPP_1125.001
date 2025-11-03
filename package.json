@@ -1,0 +1,10 @@
+{
+  "name": "diginova-root",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix fe/SL_DN_FE_AX_WEBAPP_1124.001\" \"npm run dev --prefix be/SL_DN_BE_AX_WEBAPP_1124.001\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
